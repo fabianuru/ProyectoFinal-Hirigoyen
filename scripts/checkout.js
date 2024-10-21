@@ -81,7 +81,7 @@ function validateForm() {
     const deliveryDate = document.querySelector('#delivery-date').value.trim();
     const deliveryAddress = document.querySelector('#delivery-address').value.trim();
 
-    return clientName && clientSurname && clientPhone && deliveryDate && deliveryAddress;
+    return clientName && clientEmail && clientPhone && deliveryDate && deliveryAddress;
 }
 
 function saveOrderDetails() {
