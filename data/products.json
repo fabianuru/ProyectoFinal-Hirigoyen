@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "name": "Sunrise Bliss",
+      "price": 6.99,
+      "description": "A refreshing mix of orange and passion fruit to kickstart your day.",
+      "category": "Citrus Blend",
+      "ingredients": ["Orange", "Passion Fruit"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/orange-tumeric.png",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Tropical Zing",
+      "price": 7.49,
+      "description": "A tangy mix of mango, passion fruit, orange, and lime for a tropical boost.",
+      "category": "Tropical Blend",
+      "ingredients": ["Mango", "Passion Fruit", "Orange", "Lime"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/citrus2.png",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Green Vitality",
+      "price": 7.99,
+      "description": "A nutrient-packed juice with kale, spinach, apple, and cucumber.",
+      "category": "Green Juice",
+      "ingredients": ["Kale", "Spinach", "Apple", "Cucumber"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/greens2.png",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Berry Boost",
+      "price": 8.49,
+      "description": "A mix of blueberries, raspberries, strawberries, and apple.",
+      "category": "Berry Blend",
+      "ingredients": ["Blueberries", "Raspberries", "Strawberries", "Apple"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/strawberry-basil.png",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Citrus Charge",
+      "price": 6.99,
+      "description": "A zesty combination of lemon, lime, and grapefruit.",
+      "category": "Citrus Blend",
+      "ingredients": ["Lemon", "Lime", "Grapefruit"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/refresh-blue-pineapple-lemonade.png",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Beet It",
+      "price": 7.99,
+      "description": "A blend of beets, carrot, apple, and ginger for a spicy kick.",
+      "category": "Root Juice",
+      "ingredients": ["Beet", "Carrot", "Apple", "Ginger"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/immunity-tonic.png",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Cool Cucumber",
+      "price": 6.49,
+      "description": "Refreshing cucumber, mint, and lime.",
+      "category": "Refreshing Blend",
+      "ingredients": ["Cucumber", "Mint", "Lime"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/mango-tumeric.png",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Golden Glow",
+      "price": 7.49,
+      "description": "A mix of turmeric, pineapple, and coconut water.",
+      "category": "Tropical Blend",
+      "ingredients": ["Turmeric", "Pineapple", "Coconut Water"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/spiced-apple-cider.png",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "name": "Apple Crisp",
+      "price": 6.99,
+      "description": "Fresh apple juice with a hint of cinnamon.",
+      "category": "Fruit Juice",
+      "ingredients": ["Apple", "Cinnamon"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/hydration-greens.png",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "Carrot Kick",
+      "price": 6.79,
+      "description": "A vibrant mix of carrot, orange, and ginger.",
+      "category": "Root Juice",
+      "ingredients": ["Carrot", "Orange", "Ginger"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/roots1-squash.png",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "Mango Tango",
+      "price": 7.29,
+      "description": "A smooth blend of mango and orange.",
+      "category": "Tropical Blend",
+      "ingredients": ["Mango", "Orange"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/SimpleCleanse-front.png",
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "Berry Good",
+      "price": 8.19,
+      "description": "A delicious blend of mixed berries with apple juice.",
+      "category": "Berry Blend",
+      "ingredients": ["Mixed Berries", "Apple"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/hydration-dragonfruit.png",
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "name": "Detox Delight",
+      "price": 8.49,
+      "description": "A cleansing mix of celery, cucumber, lemon, and apple.",
+      "category": "Detox Juice",
+      "ingredients": ["Celery", "Cucumber", "Lemon", "Apple"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/roots2-squash.png",
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "name": "Pineapple Punch",
+      "price": 7.79,
+      "description": "Sweet pineapple with a hint of mint.",
+      "category": "Tropical Blend",
+      "ingredients": ["Pineapple", "Mint"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/celery-juice.png",
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "name": "Citrus Sunrise",
+      "price": 6.99,
+      "description": "A bright blend of orange, lemon, and passion fruit.",
+      "category": "Citrus Blend",
+      "ingredients": ["Orange", "Lemon", "Passion Fruit"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/roots3.png",
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "name": "Spicy Ginger",
+      "price": 7.29,
+      "description": "A powerful mix of ginger, lemon, and apple.",
+      "category": "Spicy Juice",
+      "ingredients": ["Ginger", "Lemon", "Apple"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/greens3.png",
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "name": "Melon Medley",
+      "price": 7.49,
+      "description": "A refreshing mix of watermelon, cucumber, and mint.",
+      "category": "Refreshing Blend",
+      "ingredients": ["Watermelon", "Cucumber", "Mint"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/roots1-squash.png",
+      "quantity": 1
+    },
+    {
+      "id": 18,
+      "name": "Tropical Breeze",
+      "price": 7.99,
+      "description": "A delicious blend of coconut water, pineapple, and lime.",
+      "category": "Tropical Blend",
+      "ingredients": ["Coconut Water", "Pineapple", "Lime"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/unwind-tonic.png",
+      "quantity": 1
+    },
+    {
+      "id": 19,
+      "name": "Green Machine",
+      "price": 8.49,
+      "description": "A blend of spinach, kale, celery, and apple.",
+      "category": "Green Juice",
+      "ingredients": ["Spinach", "Kale", "Celery", "Apple"],
+      "image": "https://dsznjaxrxc1vh.cloudfront.net/product-images/large/Immunity_Shot.png",
+      "quantity": 1
+    },
+    {
+      "id": 20,
+      "name": "Berry Bliss",
+      "price": 8.19,
+      "description": "A delightful mix of strawberries, blueberries, and raspberries.",
+      "category": "Berry Blend",
+      "ingredients": ["Strawberries", "Blueberries", "Raspberries"],
+      "image": "https://pressed-product-images.s3.us-west-1.amazonaws.com/products/large/calm-shot.png",
+      "quantity": 1
+    }
+  ]

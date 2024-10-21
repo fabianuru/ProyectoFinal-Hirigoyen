@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <title>JuiceLab - Cold Pressed Juices</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="shop.html">Comprar</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacto</a>
+                </li>
+            </ul>
+
+            <span id="logo" class="logo">JUICELAB</span>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="cart-banner">
+            <h2>Mi Carrito</h2>
+            <a href="shop.html"> Seguir Comprando <i class="bi bi-cart-plus"></i></a>
+        </section>
+
+        <section class="cart">
+            <div class="cart-items">
+                    <!-- Aca van a renderizarse los productos del carrito -->
+            </div>
+
+            <div class="cart-resume">
+                <h3>
+                    Resumen del pedido <span>(0)</span>
+                </h3>
+                <div class="resume-subtotal">
+                    <h5>Subtotal</h4>
+                    <span>$0</span>
+                </div>
+                <div class="resume-delivery">
+
+                    <h5>Envío</h4>
+                    <span>Gratis</span>
+                </div>
+                    <select name="deliveryOption" id="deliveryOption">
+                        <option value="pickup">PickUp</option>
+                        <option value="delivery">Delivery +180</option>
+                    </select>
+
+                    <div class="resume-total">
+                        <h4>Total</h4>
+                        <span>$1000</span>
+                    </div>
+                
+
+                <button class="cart-checkout" id="cart-checkout">Finalizar Compra</button>
+
+
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+        <ul class="footer-socials">
+            <li><a href="https://www.facebook.com/JuiceLabUruguay/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/juicelab.uy/" target="_blank"> <i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://wa.me/59894315259" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+
+        <div class="footer-copyrights">
+
+            <span>© </span><span id="current-year">2024 </span><span>| Fabián Hirigoyen</span>
+        </div>
+
+        <ul class="footer-contact">
+            <li class="footer-email"><i class="bi bi-envelope"></i><a href="mailto:uy.juicelab@gmail.com"> uy.juicelab@gmail.com</a></li>
+            <li><i class="bi bi-geo-alt"></i> Zum Felde 2160 B</li>
+            <li><i class="bi bi-telephone"></i> 094315259</li>
+        </ul>
+    </footer>
+
+    <script src="../scripts/cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <title>JuiceLab - Cold Pressed Juices</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h2 class="confirmation-title">PÁGINA DE CONFIRMACIÓN</h2>
+            <span id="logo" class="logo">JUICELAB</span>
+
+            <a href="shop.html">Seguir Navegando <i class="bi bi-arrow-90deg-left"></i></a>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section class="checkout">
+            <form action="checkout.html">
+                <div class="client-information">
+                    <h2>Detalles del cliente</h2>
+                    <label for="client-name">Nombre Completo *</label>
+                    <input type="text" id="client-name" name="client-name" required>
+
+                    <label for="client-email">Email * </label>
+                    <input type="email" id="client-email" name="client-email" required>
+
+                    <label for="client-phone">Telefóno de contacto *</label>
+                    <input type="text" id="client-phone" name="client-phone" required>
+                </div>
+                <div class="delivery-information">
+                    <h2>Detalles de Delivery o PickUp</h2>
+                    <label for="delivery-date">Seleccione Fecha de delivery o pickUp *</label>
+                    <input type="date" id="delivery-date" name="delivery-date">
+
+                    <label for="delivery-address">Dirección de delivery *</label>
+                    <input type="text" id="delivery-address" name="delivery-address" required>
+
+                    <label for="delivery-notes">Comentarios:</label>
+                    <input type="text" id="delivery-notes" name="delivery-notes">
+                </div>
+                <input class="checkout-btn" id="checkout-btn" type="submit" value="Finalizar Pedido">
+            </form>
+
+            <div class="checkout-resume">
+                <div class="checkout-header">
+                    <h3>
+                        Resumen del pedido 
+                    </h3>
+                    <a href="cart.html">Editar pedido</a>
+                </div>
+                <div class="checkout-items">
+                    <div class="checkout-item">
+                        <img src="" alt="">
+                        <div class="checkout-item-description">
+                            <h3>Nombre del producto</h3>
+                            <p>Cant: <span>0</span></p>
+                        </div>
+
+                        <span class="checkout-item-price">$ 250</span>
+                        
+                    </div>
+                    <!-- Aca se van a renderizar los items del carrito para finalizar el pedido -->
+                </div>
+ 
+                <div class="checkout-subtotal">
+                    <div class="checkout-products">
+                        <h5>Productos</h4>
+                            <span>$0</span>
+                    </div>
+                    <div class="checkout-delivery">
+                        <h5>Envío</h4>
+                            <span>Gratis</span>
+                    </div>
+                    <div class="checkout-iva">
+                        <h5>IVA</h5>
+                        <span>$0</span>
+                    </div>
+
+                </div>
+                <div class="checkout-total">
+                    <h4>Total</h4>
+                    <span>$1000</span>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+        <ul class="footer-socials">
+            <li><a href="https://www.facebook.com/JuiceLabUruguay/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/juicelab.uy/" target="_blank"> <i class="bi bi-instagram"></i></a></li>
+            <li><a href="https://wa.me/59894315259" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+
+        <div class="footer-copyrights">
+
+            <span>© </span><span id="current-year">2024 </span><span>| Fabián Hirigoyen</span>
+        </div>
+
+        <ul class="footer-contact">
+            <li class="footer-email"><i class="bi bi-envelope"></i><a href="mailto:uy.juicelab@gmail.com"> uy.juicelab@gmail.com</a></li>
+            <li><i class="bi bi-geo-alt"></i> Zum Felde 2160 B</li>
+            <li><i class="bi bi-telephone"></i> 094315259</li>
+        </ul>
+    </footer>
+
+    <script src="../scripts/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
